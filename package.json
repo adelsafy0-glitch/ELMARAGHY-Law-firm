@@ -1,0 +1,40 @@
+{
+  "name": "elmaraghy-law-firm",
+  "version": "1.0.0",
+  "description": "Professional website for Senior Legal Advisor Seif El-Din Kamal El-Maraghi - ELMARAGHY Law Firm",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000",
+    "serve": "python -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "law-firm",
+    "legal-consulting",
+    "egyptian-law",
+    "استشارات-قانونية",
+    "محاماة",
+    "مصر"
+  ],
+  "author": {
+    "name": "Seif El-Din Kamal El-Maraghi",
+    "url": "https://github.com/adelsafy0-glitch"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adelsafy0-glitch/ELMARAGHY-Law-firm.git"
+  },
+  "homepage": "https://adelsafy0-glitch.github.io/ELMARAGHY-Law-firm/",
+  "bugs": {
+    "url": "https://github.com/adelsafy0-glitch/ELMARAGHY-Law-firm/issues"
+  },
+  "devDependencies": {
+    "http-server": "^latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": false
+}
