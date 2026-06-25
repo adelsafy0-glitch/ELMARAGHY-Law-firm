@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المستشار الأول - صفي الدين كمال المراغي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <span class="title-tag">المستشار الأول</span>
+            <h1>صَفِي الدّين كَمال المَراغي</h1>
+            <p>المستشار القانوني ومؤسس مكتب المراغي للمحاماة والاستشارات القانونية. خبرة عقود في صياغة الاستراتيجيات الدفاعية وإدارة النزاعات القضائية الكبرى.</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#about">عن المستشار</a></li>
+                <li><a href="#expertise">التخصصات</a></li>
+                <li><a href="#booking">حجز موعد</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <div class="section" id="about">
+            <h2>نبذة عن المستشار الأول</h2>
+            <p>على مدار سنوات طويلة من العمل القانوني الدؤوب، تولى المستشار صفي الدين كمال المراغي قيادة وإدارة أعقد القضايا والنزاعات القانونية، مكرساً خبرته لتقديم حلول واستشارات تضمن الحماية القانونية الكاملة للشركات والأفراد على حد سواء. يُعرف برؤيته الاستراتيجية الثاقبة وقدرته على تحليل الثغرات وصياغة المذكرات القانونية بأسلوب رصين ومحكم.</p>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">40+</div>
+                    <div class="stat-label">سنة خبرة</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">قضية منجزة</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">نسبة النجاح</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="expertise">
+            <h2>مجالات الاختصاص الاستشاري الكبرى</h2>
+            <div class="expertise-grid">
+                <div class="exp-item">
+                    <div class="exp-icon">⚖️</div>
+                    <div class="exp-title">قضايا الجنايات والنزاعات الكبرى</div>
+                    <p>التعامل مع أعقد القضايا الجنائية بخبرة واستراتيجية دفاعية متقدمة</p>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-icon">🏢</div>
+                    <div class="exp-title">الاستشارات القانونية للشركات</div>
+                    <p>حماية الشركات والمؤسسات من المخاطر القانونية المختلفة</p>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-icon">📝</div>
+                    <div class="exp-title">صياغة العقود الدولية</div>
+                    <p>مراجعة وصياغة العقود والاتفاقيات الدولية بدقة احترافية</p>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-icon">🏛️</div>
+                    <div class="exp-title">تمثيل أمام المحاكم العليا</div>
+                    <p>تمثيل قانوني احترافي أمام محاكم النقض والقضاء الإداري</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="booking-box" id="booking">
+            <h3>طلب جلسة استشارية خاصة (VIP)</h3>
+            <p>نظراً لجدول المواعيد المزدحم، يتم تنسيق الجلسات الاستشارية الخاصة مع المستشار الأول مسبقاً من خلال النموذج أدناه لضمان دراسة ملف القضية قبل الموعد.</p>
+            
+            <form id="bookingForm" class="booking-form">
+                <div class="form-group">
+                    <label for="name">الاسم الكامل *</label>
+                    <input type="text" id="name" name="name" required placeholder="أدخل اسمك الكامل">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني *</label>
+                    <input type="email" id="email" name="email" required placeholder="example@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">رقم الهاتف *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="01018704042">
+                </div>
+                
+                <div class="form-group">
+                    <label for="caseType">نوع القضية *</label>
+                    <select id="caseType" name="caseType" required>
+                        <option value="">-- اختر نوع القضية --</option>
+                        <option value="criminal">جنايات ونزاعات كبرى</option>
+                        <option value="corporate">استشارات شركات</option>
+                        <option value="contracts">صياغة عقود</option>
+                        <option value="litigation">تقاضي أمام المحاكم</option>
+                        <option value="other">أخرى</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="details">تفاصيل الاستشارة *</label>
+                    <textarea id="details" name="details" rows="5" required placeholder="اشرح تفاصيل قضيتك أو استشارتك..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="preferredDate">التاريخ المفضل للجلسة</label>
+                    <input type="date" id="preferredDate" name="preferredDate">
+                </div>
+                
+                <button type="submit" class="btn-call">إرسال طلب الاستشارة</button>
+                <p id="formMessage" style="margin-top: 15px; display: none;"></p>
+            </form>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>تواصل معنا</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>📞 الهاتف</h3>
+                    <p><a href="tel:01018704042">01018704042</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>📧 البريد الإلكتروني</h3>
+                    <p><a href="mailto:info@elmaraghy-law.com">info@elmaraghy-law.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>📍 العنوان</h3>
+                    <p>القاهرة، مصر</p>
+                </div>
+                <div class="contact-item">
+                    <h3>🕐 ساعات العمل</h3>
+                    <p>السبت - الخميس: 9:00 - 17:00</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2026 مكتب المراغي للمحاماة والاستشارات القانونية. جميع الحقوق محفوظة.</p>
+            <p style="font-size: 0.85rem; margin-top: 10px;">تطوير بواسطة <a href="https://github.com/adelsafy0-glitch" style="color: var(--accent-color);">GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
