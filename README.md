@@ -1,7 +1,7 @@
 # مكتب المراغي للمحاماة والاستشارات القانونية
 # ELMARAGHY Law Firm - Professional Legal Consulting Website
 
-> Website for Senior Legal Advisor Seif El-Din Kamal El-Maraghi
+> Website for Senior Legal Advisor Safy El-Deen Kamal El-Maraghy
 
 ## 🌐 Features
 
